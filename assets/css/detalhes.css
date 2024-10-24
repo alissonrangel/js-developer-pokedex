@@ -1,14 +1,5 @@
-
-/* .show{
-  display: block;
-}
-
-.hidden{
-  display: none;
-} */
-
 #pokemonDetalhes {
-  width: 350px;
+  width: 300px;
   height: 750px;
   background: linear-gradient(180deg, #f6f8fc, #bbb);
   margin: auto;
@@ -27,17 +18,16 @@
   border-top-right-radius: 30px;
   display: flex;
   flex-direction: column;
-  padding: 30px 20px 0 20px;
+  padding: 20px 20px 0 20px;
 }
 
 #pokemonDetalhes .container .header .close{
   display: inline-block;
   align-self: end;
   border: 0;
-  font-size: 2rem;
+  font-size: 1rem;
   color: #fff;
   font-weight: 900;
-  margin-bottom: 10px;
   cursor: pointer;
 }
 
